@@ -1,8 +1,8 @@
 header, footer{
     background-color: #1f2937;
     font: "Roboto";
-    /* display: flex;
-    flex-direction: column; */
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .heading {
@@ -51,7 +51,7 @@ header, footer{
     margin-top: 0;
 }
 
-.intro button {
+.intro button, .information button {
     color: #E5E7EB;
     background-color: #3882F6;
     border-radius: 5px;
@@ -69,17 +69,62 @@ header, footer{
     color: #E5E7EB;
 }
 
-.information p {
+.information {
+    display:  flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.information div{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
     font-size: 36px;
     font-weight: 900;
-    color: #1f2937
+    color: #1f2937;
+    padding: 50px;
 }
 
 .information ul {
     list-style-type: none;
     display: flex;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote p {
+    font-size: 36px;
+    font-style: italic;
+    color: #565d68;
+    font-weight: 300;
+    /* margin-bottom: 0; */
+}
+
+.quote p:nth-of-type(2) {
+    align-self: flex-end;
+    font-size: 18px;
+    color: #1F2937;
+    font-weight: 900;
+    margin-top: 0;
+}
+
+.action {
+    max-width: 600px;
+    max-height: 300px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+}
+
+.action p:nth-of-type(1){
+    font-size: 20px;
+}
+.action p:nth-of-type(2){
+    font-size: 10px;
 }
 
 footer {
