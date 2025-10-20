@@ -7,14 +7,20 @@ header{
     display: flex;
     flex-direction: row; 
     justify-content: space-around;
-    align-items: flex-end;
+    align-items: flex-start;
+    padding: 10px;
 }
 
+.heading img {
+    width: 40px;
+    height: auto;
+}
 .intro_window {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     align-items: center;
+    margin: 50px;
+    gap: 10px;
 }
 
 .intro {
@@ -22,7 +28,6 @@ header{
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    margin: 100px;
 }
 .intro h1 {
     font-size: 48px;
@@ -41,10 +46,11 @@ header{
     color: #E5E7EB;;
     background-color: #3882F6;
     border-radius: 5px;
+    margin-bottom: 50px;
 }
 
 .intro_window img {
-    width: 200px;
+    width: 400px;
     height: 200px;
 }
 
