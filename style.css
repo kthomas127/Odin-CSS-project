@@ -1,0 +1,60 @@
+header{
+    background-color: #1f2937;
+    font: "Roboto";
+}
+
+.heading {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.intro_window {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 100px;
+}
+.intro h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin-bottom: 0;
+}
+
+.intro h2 {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: 0;
+}
+
+.intro button {
+    color: #E5E7EB;;
+    background-color: #3882F6;
+    border-radius: 5px;
+}
+
+.intro_window img {
+    width: 200px;
+    height: 200px;
+}
+
+.nav {
+    display: flex;
+    gap: 20px;
+}
+
+.nav a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #E5E7EB;
+}
