@@ -86,10 +86,13 @@ header, footer{
     padding: 50px;
 }
 
-.information ul {
+.information ul{
     list-style-type: none;
     display: flex;
+    align-items: baseline;
+    gap: 50px
 }
+
 
 .quote {
     background-color: #E5E7EB;
@@ -133,6 +136,6 @@ header, footer{
 footer {
     display: flex;
     color: #E5E7EB;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
